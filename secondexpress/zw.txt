@@ -1,0 +1,38 @@
+
+bower
+npm install -g bower 
+
+new file bower.json
+
+
+new file .bowerrc
+
+
+angularJs 根目录是express应用的public目录
+
+
+public/application.js 引导angularJs应用
+
+在index.ejs视图中包含application.js文件
+
+
+start mongodb server
+mongod --dbpath=C:\MongoDB\data\db
+
+
+install 
+cnpm install dev-tool -g
+
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+
+devtool server.js --watch
+
+AngularJS是一个单页应用框架，因此ngRoute是在浏览器之内对路由进行管理。
+引入ngRoute模块：
+1. bower install -save angular-route
+2. index.ejs里添加<script>标签
+3. 主模块中加入依赖，application.js
+
+ng-view指令用于告诉AnguarJs将路由中的视图填充到哪一个DOM元素。(在index.ejs中)
